@@ -40,13 +40,13 @@ export default function Home() {
               /> */}
               <AnimatedText
                 text="Hi! 👋 I'm Gaurav    "
-                className="text-5xl  !text-left xl:!text-5xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
+                className="text-4xl  !text-left xl:!text-4xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
                 fontColour="!text-black"
               />
               <AnimatedText
                 text="ML | Data Science Engineer"
                 fontColour="!text-black-500"
-                className="text-3xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                className="text-xl !text-left xl:!text-xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
                 <li className="m-1">I&apos;m a Machine Learning and Data Science Engineer passionate about 

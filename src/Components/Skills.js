@@ -32,22 +32,22 @@ const Skills = () => {
       whileHover={{ scale: 1.1 }}
       initial={{x:0,y:0}}
     >
-      WEB
+      AI/ML
     </motion.div>
-        <Skill name="REACT" x="30vw" y="0vw"/>
-        <Skill name="TAILWINDCSS" x="0vw" y="10vw"/>
-        <Skill name="CHAKRA UI" x="0vw" y="20vw"/>
-        <Skill name="REDUX" x="-30vw" y="0vw"/>
-        <Skill name="NODE.JS" x="0vw" y="-10vw"/>
+        <Skill name="SCIPY" x="30vw" y="0vw"/>
+        <Skill name="TENSRFLOW" x="0vw" y="10vw"/>
+        <Skill name="R" x="0vw" y="20vw"/>
+        <Skill name="SCIKIT-LEARN" x="-30vw" y="0vw"/>
+        <Skill name="PYTORCH" x="0vw" y="-10vw"/>
         <Skill name="JAVA" x="25vw" y="20vw"/>
-        <Skill name="DSA" x="-25vw" y="20vw"/>
-        <Skill name="EXPRESS.JS" x="0vw" y="-20vw"/>
+        <Skill name="OPENCV" x="-25vw" y="20vw"/>
+        <Skill name="PYTHON" x="0vw" y="-20vw"/>
         <Skill name="MONGOOSE" x="25vw" y="-10vw"/>
-        <Skill name="NEXT.JS" x="-22vw" y="-10vw"/>
-        <Skill name="VERCEL" x="-25vw" y="10vw"/>
-        <Skill name="MONGODB" x="29vw" y="10vw"/>
-        <Skill name="NPM" x="-25vw" y="-20vw"/>
-        <Skill name="JS" x="25vw" y="-20vw"/>
+        <Skill name="PANDAS" x="-22vw" y="-10vw"/>
+        <Skill name="REACT" x="-25vw" y="10vw"/>
+        <Skill name="SQL" x="29vw" y="10vw"/>
+        <Skill name="KERAS" x="-25vw" y="-20vw"/>
+        <Skill name="NUMPY" x="25vw" y="-20vw"/>
       </div>
     </>
   );

@@ -25,7 +25,7 @@ const Details = ({ type, time, place, info }) => {
   );
 };
 
-const Education = () => {
+const Experience = () => {
   const ref1 = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref1,
@@ -37,7 +37,7 @@ const Education = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mt-64 mb-32 w-full text-center md:text-6xl md:mb-16 xs:text-4xl">
-        EDUCATION
+        EXPERIENCE
       </h2>
 
       <div ref={ref1} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -72,4 +72,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experience;

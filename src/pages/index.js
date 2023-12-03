@@ -49,10 +49,10 @@ export default function Home() {
                 className="text-5xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
-                <li className="m-1">I'm a Machine Learning and Data Science Engineer passionate about 
-                unraveling data's secrets. From predictive modeling to deep learning, I thrive on turning data into 
+                <li className="m-1">I&apos;m a Machine Learning and Data Science Engineer passionate about 
+                unraveling data&apos;s secrets. From predictive modeling to deep learning, I thrive on turning data into 
                 innovative solutions. Join me on this journey of transforming ideas into intelligent outcomes. 
-                Explore my work and let's shape the future together.</li>
+                Explore my work and let&apos;s shape the future together.</li>
               </ul>
               {/* <p className="my-4 text-base font-medium md:text-sm sm:text-xs ">
                 As a Full-Stack Developer, I am well versed in Web

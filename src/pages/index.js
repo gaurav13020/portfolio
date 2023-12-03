@@ -65,6 +65,7 @@ export default function Home() {
               <div className="flex flex-wrap  items-center self-start mt-2 lg:self-center">
                 <Link
                   href="https://gauravsingh.vercel.app/Gaurav_Singh_Resume.pdf"
+                  target={"_blank"}
                   className="flex items-center m-1.5 bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:text-light hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >

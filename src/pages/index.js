@@ -46,7 +46,7 @@ export default function Home() {
               <AnimatedText
                 text="ML | Data Science Engineer"
                 fontColour="!text-black-500"
-                className="text-xl !text-left xl:!text-xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
+                className="text-2xl !text-left 2xl:!text-xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <ul className="my-4 text-base font-medium md:text-sm sm:text-xs ">
                 <li className="m-1">I&apos;m a Machine Learning and Data Science Engineer passionate about 

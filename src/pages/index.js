@@ -39,7 +39,7 @@ export default function Home() {
                 className="!text-6xl  !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               /> */}
               <AnimatedText
-                text="Hi!👋 I'm Gaurav"
+                text="Hi!👋 I'm Gauravv"
                 className="text-7xl  text-left xl:text-5xl lg:text-center lg:text-5xl lg:mb-1  md:text-5xl sm:text-xl sm:mb-1"
                 fontColour="!text-black"
               />

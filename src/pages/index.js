@@ -33,13 +33,13 @@ export default function Home() {
               50vw"
               />
             </div>
-            <div className="w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center xl:ml-10 xl:pl-10">
+            <div className="w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center xl:!ml-10 xl:!pl-10">
               {/* <AnimatedText
                 text="Hey ! "
                 className="!text-6xl  !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               /> */}
               <AnimatedText
-                text="Hi!👋 I'm Gauravv"
+                text="Hi!👋 I'm Gaurav"
                 className="text-7xl  !text-left xl:!text-5xl lg:!text-center lg:!text-5xl lg:!mb-1  md:!text-5xl sm:!text-xl sm:!mb-1"
                 fontColour="!text-black"
               />

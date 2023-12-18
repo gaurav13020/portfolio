@@ -56,29 +56,31 @@ const About = () => {
                 BIOGRAPHY
               </h2>
               <p className="font-medium">
-                Hey there! My name is Soumya Swaroop Sootar and I am a Full
-                Stack Web Developer with expertise in MERN Development. I
-                specialize in React, Express.js, Next.js,NPM, MongoDB, Chakra
-                UI,Tailwind CSS, Node JS, HTML, CSS, and JavaScript. My strong
-                collaboration and problem-solving skills were developed through
-                team projects, and I am highly motivated to apply my technical
-                skills to new and exciting projects.
+              Welcome to my corner of the digital realm! I&apos;m Gaurav Singh, a passionate Machine Learning 
+              Engineer with a keen focus on developing and implementing cutting-edge deep learning models for 
+              various applications in the realm of data science. My journey in the field has been marked by the 
+              creation of impactful projects, such as drowsiness detection systems and in-depth analyses of YouTube 
+              and Uber data.
+
+
               </p>
 
               <p className="font-medium my-4">
-                Some of my notable clone projects include ZOSTEL, a hostel
-                booking website with 60+ destinations across India and Nepal,
-                and FABALLEY, an Indian fashion e-commerce website with
-                thousands of trendy and affordable fashion options. I also
-                worked on cloning SHOP.COM, an online shopping website that
-                offers thousands of products from various retailers.
+              My technical toolkit includes proficiency in Python, where I harness the power of PyTorch, 
+              numpy, and pandas, among other modules, to bring ideas to life. I thrive on the challenge 
+              of translating complex problems into elegant solutions, and my commitment to staying at the 
+              forefront of technology fuels my drive to explore new possibilities within the ever-evolving 
+              landscape of machine learning.
+
               </p>
 
               <p className="font-medium">
-                Overall,I am a friendly and dedicated developer who is always
-                eager to take on new challenges and exceed expectations. I look
-                forward to working with you!
+              Whether delving into the intricacies of neural networks or extracting meaningful insights from 
+              vast datasets, I find joy in the pursuit of innovation and the potential to make a positive impact. 
+              Join me on this journey as we navigate the fascinating intersection of machine learning and real-world 
+              applications. I look forward to working with you!
               </p>
+              
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 rounded-br-xl border-solid border-dark bg-light p-3 dark:bg-dark dark:border-primaryDark xl:col-span-4 md:order-1 md:col-span-8" >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-primary " />

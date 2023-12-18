@@ -48,15 +48,10 @@ const Education = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
-          <Details
-            type="Master of Science"
-            time="Aug 2024 - Apr 2026 "
-            place=" San Jose State University "
-            info="Completed 1200+ Hours of coursework in topics such as Machine Learning and Data Science"
-          />
+          
           <Details
             type="Bachelor Of Engineering"
-            time="August 2019-2023 "
+            time="August 2019 - May 2023 "
             place=" Savitribai Phule Pune University , Pune"
             info="Pune, Maharashtra, India"
           />

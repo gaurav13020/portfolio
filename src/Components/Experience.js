@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { useScroll, motion } from "framer-motion";
 import LiIcon from "./LiIcon";
 
-const Details = ({ type, time, place, info }) => {
+const Details = ({ type, position, time, place, info1, info2 }) => {
   const ref = useRef(null);
   return (
     <li
@@ -16,10 +16,12 @@ const Details = ({ type, time, place, info }) => {
      transition={{duration:0.5,type:"spring"}}>
 
       <h3 className="capitalize font-bold text-3xl sm:text-xl xs:text-lg">{type}</h3>
+      <h3 className="capitalize font-bold text-dark/75 dark:text-primaryDark/75 text-xl sm:text-xl xs:text-lg">{position}</h3>
       <span className="capitalize font-medium text-dark/75 dark:text-primaryDark/75 xs:text-sm">
         {time}|{place}
       </span>
-      <p className="font-medium w-full md:text-sm">{info}</p>
+      <p className="font-medium w-full md:text-sm">▶{info1}</p>
+      <p className="font-medium w-full md:text-sm">▶{info2}</p>
     </motion.div>
     </li>
   );
@@ -49,23 +51,34 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between xs:ml-2">
           <Details
-            type="Master of Science"
-            time="Aug 2024 - Apr 2026 "
-            place=" San Jose State University "
-            info="Completed 1200+ Hours of coursework in topics such as Machine Learning and Data Science"
+            type="@LTIMindtree"
+            position="Data Science Intern"
+            time="Feburary 2023 - June 2026 "
+            place=" Pune, Maharashtra, India "
+            info1="
+            Participated in an intensive training program focused on data science and analytics, gaining hands-on
+            experience with industry-standard tools and technologies.
+            Worked with SQL databases to retrieve and manipulate data, ensuring data integrity and efficient data
+            access.
+            "
+            info2="
+            Demonstrated strong problem-solving skills and a commitment to continuous learning, adapting to new
+            challenges and technologies in the rapidly evolving field of data science.
+            "
           />
           <Details
-            type="Bachelor Of Engineering"
-            time="August 2019-2023 "
-            place=" Savitribai Phule Pune University , Pune"
-            info="Pune, Maharashtra, India"
+            type="@Pratyin Infotech"
+            position="SWE Intern"
+            time="December 2022 - February 2023 "
+            place=" Pune, Maharashtra, India"
+            info1="Developed a platform to provide easy management of employees working.
+            Utilized technologies such as NodeJS & MongoDB for the development of the application.
+            
+            "
+            info2="Managed the tools for industry-level authentication and authorization using Passport.js.
+            "
           />
-          <Details
-            type="12th board (CBSE)"
-            time="2018 "
-            place=" Nowrosjee Wadia College"
-            info="Pune, Maharashtra, India"
-          />
+          
         </ul>
       </div>
     </div>

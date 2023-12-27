@@ -6,13 +6,19 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import zostelimg from "../../public/images/projects/ZOSTEL.png";
+import youtube from "../../public/images/projects/youtube.png";
 import fabimg from "../../public/images/projects/Faballey.png";
+import blackScholes from "../../public/images/projects/blackScholes.png";
+
 import shopimg from "../../public/images/projects/Shop.png";
 import Transitions from "@/Components/Transitions";
 import Portfolioimg from "../../public/images/projects/Portfolio.png";
-import Placeprepimg from "../../public/images/projects/Placeprep.com.png";
+import driverDrowsiness from "../../public/images/projects/driverDrowsiness.png";
 import CockTailCompassimg from "../../public/images/projects/CocktailCompass.png";
 import Conversoimg from "../../public/images/projects/Converso.png";
+import uber from "../../public/images/projects/uber.png";
+import sp500 from "../../public/images/projects/sp500.png";
+import brownian from "../../public/images/projects/brownian.png";
 
 const FeatureProject = ({ type, title, summary, img, github, link }) => {
   return (
@@ -133,44 +139,78 @@ const projects = () => {
             className="mb-16 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 xl:gap-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-5 ">
-            <div className="col-span-12">
+          <div className="col-span-12">
               <FeatureProject
-                type={"FEATURE PROJECT (CLIENT WORK)"}
-                title={"P L A C E P R E P"}
-                link="https://place-prep-com-sigma.vercel.app/HomePage/index.html"
-                github={"https://github.com/soumyasootar/PlacePrep.com"}
-                img={Placeprepimg}
+                type={"FEATURE PROJECT (FINAL YEAR)"}
+                title={"DROWSINESS DETECTION"}
+                link="https://github.com/gaurav13020/drowsinessDetection"
+                github={"https://github.com/gaurav13020/drowsinessDetection"}
+                img={driverDrowsiness}
                 summary="Placeprep.com is a Educational website where anybody can learn about coding related topics and languages. Placeprep allows you to give MCQ test, apart from that it has two logins one for user login and another for admin with Email validation and Chatbot,Quiz,Proctoring,etc .This website was developed using HTML,SCSS,CSS,Javascript,Bootstrap & JSON Server."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"Z O S T E L"}
-                link="https://zostel-ten.vercel.app/"
-                github={"https://github.com/soumyasootar/zostel"}
-                img={zostelimg}
-                summary="Zostel is a hostel booking website with over 60+ destinations across India and Nepal. The website features authenticated login with email verification, the ability to book multiple rooms, voice search, and dark mode. The tech stack used includes React, React-Redux, JS, Chakra UI, Framer Motion, and Email JS. The project responsibilities included implementing Email JS on the login page, coding the destination page, debugging the payment page, ensuring responsiveness, debugging the room booking page, and maintaining the GitHub codebase."
+                title={"YOUTUBE DATA ANALYSIS"}
+                link="https://lookerstudio.google.com/reporting/c4386709-63fa-497d-8a2d-3b92e5538d96"
+                github={"https://github.com/gaurav13020/youtubeDataAnalysis"}
+                img={youtube}
+                summary="This project aims to efficiently manage YouTube video data, categorizing it by genres and trending metrics. It involves robust data collection, an Extract, Transform, Load (ETL) system, a centralized data lake, scalability, and utilizes AWS services like S3, IAM, QuickSight, Glue, Lambda, and Athena. The Kaggle-sourced dataset includes daily statistics on popular YouTube videos with category_id variations by region."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"F A B A L L E Y"}
+                title={"BLACK SCHOLES CALCULATOR"}
                 link="https://fab-alley-clone-10.vercel.app/"
                 github={"https://github.com/soumyasootar/FabAlley"}
-                img={fabimg}
+                img={blackScholes}
                 summary="FABALLEY is an Indian e-commerce website that offers a vast collection of trendy and affordable fashion styles. With authenticated login/signup, voice search, and sorting/filtering options, customers can enjoy a seamless shopping experience. The website features a well-designed landing page, login/signup with Email JS, cart, address, payment, and profile pages that are responsive across all devices. FABALLEY also provides multiple user login options, and its backend is built using Express and MongoDB Mongoose."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"C O N V E R S O"}
+                title={"UBER DATA ANALYSIS"}
+                link="https://lookerstudio.google.com/reporting/c4386709-63fa-497d-8a2d-3b92e5538d96"
+                github={"https://github.com/soumyasootar/Converso"}
+                img={uber}
+                summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+              />
+            </div>
+            <div className="col-span-12">
+              <FeatureProject
+                type={"FEATURE PROJECT"}
+                title={"S & P 500 PRICE PREDICTION"}
                 link="https://github.com/soumyasootar/Converso"
                 github={"https://github.com/soumyasootar/Converso"}
-                img={Conversoimg}
+                img={sp500}
                 summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+              />
+            </div>
+            <div className="col-span-12">
+              <FeatureProject
+                type={"FEATURE PROJECT"}
+                title={"BROWNIAN SIMULATOR"}
+                link="https://github.com/soumyasootar/Converso"
+                github={"https://github.com/soumyasootar/Converso"}
+                img={brownian}
+                summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+              />
+            </div>
+            
+            {/* <div className="col-span-6 sm:col-span-12">
+              <Project
+                type={"PROJECT"}
+                title={"P O R T F O L I O"}
+                link="https://soumyaswaroopsootar.vercel.app/"
+                github={"https://github.com/soumyasootar/Portfolio"}
+                img={driverDrowsiness}
+                summary="Portfolio using NextJS,Framer-Motion and TailwindCSS Portfolio using NextJS,Framer-Motion and TailwindCSS
+                Portfolio using NextJS,Framer-Motion and TailwindCSS
+                Portfolio using NextJS,Framer-Motion and TailwindCSS"
+                // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -179,7 +219,7 @@ const projects = () => {
                 title={"P O R T F O L I O"}
                 link="https://soumyaswaroopsootar.vercel.app/"
                 github={"https://github.com/soumyasootar/Portfolio"}
-                img={Portfolioimg}
+                img={youtube}
                 summary="Portfolio using NextJS,Framer-Motion and TailwindCSS"
                 // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
               />
@@ -187,23 +227,48 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
-                title={"S h o p . com"}
-                link="https://shopclone10.netlify.app/project.html"
-                github={"https://github.com/soumyasootar/www.shop.com"}
-                img={shopimg}
-                summary="HTML, JS, and CSS used to create an e-commerce website with authentication, sorting, filtering, and voice search functionality."
+                title={"P O R T F O L I O"}
+                link="https://soumyaswaroopsootar.vercel.app/"
+                github={"https://github.com/soumyasootar/Portfolio"}
+                img={blackScholes}
+                summary="Portfolio using NextJS,Framer-Motion and TailwindCSS"
+                // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type={"PROJECT"}
-                title={"Cocktail Compass"}
-                link="https://cocktailcompass.vercel.app/"
-                github={"https://github.com/soumyasootar/CocktailCompass"}
-                img={CockTailCompassimg}
-                summary="Find your Favourite Cocktails Here. Simple Cocktail Searching App made with React,Vite , Chakra UI , React-Redux."
+                title={"P O R T F O L I O"}
+                link="https://soumyaswaroopsootar.vercel.app/"
+                github={"https://github.com/soumyasootar/Portfolio"}
+                img={uber}
+                summary="Portfolio using NextJS,Framer-Motion and TailwindCSS"
+                // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type={"PROJECT"}
+                title={"P O R T F O L I O"}
+                link="https://soumyaswaroopsootar.vercel.app/"
+                github={"https://github.com/soumyasootar/Portfolio"}
+                img={sp500}
+                summary="Portfolio using NextJS,Framer-Motion and TailwindCSS"
+                // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type={"PROJECT"}
+                title={"P O R T F O L I O"}
+                link="https://soumyaswaroopsootar.vercel.app/"
+                github={"https://github.com/soumyasootar/Portfolio"}
+                img={sp500}
+                summary="Portfolio using NextJS,Framer-Motion and TailwindCSS"
+                // summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
+              />
+            </div> */}
+            
           </div>
         </Layout>
       </main>

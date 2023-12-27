@@ -53,7 +53,7 @@ const Education = () => {
             type="Bachelor Of Engineering"
             time="August 2019 - May 2023 "
             place=" Savitribai Phule Pune University , Pune"
-            info="Pune, Maharashtra, India"
+            info="Related Coursework: Python Programming, Numerical & Statistical Methods, AIML, Operation Research"
           />
           <Details
             type="12th board (CBSE)"

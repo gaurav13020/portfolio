@@ -146,14 +146,15 @@ const projects = () => {
                 link="https://github.com/gaurav13020/drowsinessDetection"
                 github={"https://github.com/gaurav13020/drowsinessDetection"}
                 img={driverDrowsiness}
-                summary="Placeprep.com is a Educational website where anybody can learn about coding related topics and languages. Placeprep allows you to give MCQ test, apart from that it has two logins one for user login and another for admin with Email validation and Chatbot,Quiz,Proctoring,etc .This website was developed using HTML,SCSS,CSS,Javascript,Bootstrap & JSON Server."
+                summary="
+                The drowsiness detection project employs Python, OpenCV, and dlib for implementation. The system utilizes facial landmarks detection from dlib and OpenCV's computer vision capabilities to monitor facial features. By analyzing blink patterns and eye closure duration, the system can detect signs of drowsiness. The combination of these technologies enables real-time monitoring of facial expressions to identify potential drowsiness in individuals."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
-                title={"YOUTUBE DATA ANALYSIS"}
-                link="https://lookerstudio.google.com/reporting/c4386709-63fa-497d-8a2d-3b92e5538d96"
+                title={"YOUTUBE ETL PIPELINE"}
+                link="https://github.com/gaurav13020/youtubeDataAnalysis"
                 github={"https://github.com/gaurav13020/youtubeDataAnalysis"}
                 img={youtube}
                 summary="This project aims to efficiently manage YouTube video data, categorizing it by genres and trending metrics. It involves robust data collection, an Extract, Transform, Load (ETL) system, a centralized data lake, scalability, and utilizes AWS services like S3, IAM, QuickSight, Glue, Lambda, and Athena. The Kaggle-sourced dataset includes daily statistics on popular YouTube videos with category_id variations by region."
@@ -163,10 +164,10 @@ const projects = () => {
               <FeatureProject
                 type={"FEATURE PROJECT"}
                 title={"BLACK SCHOLES CALCULATOR"}
-                link="https://fab-alley-clone-10.vercel.app/"
-                github={"https://github.com/soumyasootar/FabAlley"}
+                link="https://github.com/gaurav13020/blackScholes"
+                github={"https://github.com/gaurav13020/blackScholes"}
                 img={blackScholes}
-                summary="FABALLEY is an Indian e-commerce website that offers a vast collection of trendy and affordable fashion styles. With authenticated login/signup, voice search, and sorting/filtering options, customers can enjoy a seamless shopping experience. The website features a well-designed landing page, login/signup with Email JS, cart, address, payment, and profile pages that are responsive across all devices. FABALLEY also provides multiple user login options, and its backend is built using Express and MongoDB Mongoose."
+                summary="The Black-Scholes Calculator project is designed to provide comprehensive outputs of Greek values. Utilizing the Black-Scholes options pricing model, the calculator computes and presents essential Greeks—such as Delta, Gamma, Theta, Vega, and Rho. This tool enables users to assess the sensitivity of option prices to changes in various factors, enhancing their understanding and decision-making in the financial markets."
               />
             </div>
             <div className="col-span-12">
@@ -174,29 +175,31 @@ const projects = () => {
                 type={"FEATURE PROJECT"}
                 title={"UBER DATA ANALYSIS"}
                 link="https://lookerstudio.google.com/reporting/c4386709-63fa-497d-8a2d-3b92e5538d96"
-                github={"https://github.com/soumyasootar/Converso"}
+                github={"https://github.com/gaurav13020/uberETLPipeline"}
                 img={uber}
-                summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+                summary="
+                The Uber ETL (Extract, Transform, Load) pipeline project leverages BigQuery and Mage for efficient data processing. Using BigQuery for storage and analytics, the pipeline extracts, transforms, and loads data seamlessly. Mage, a data orchestration tool, likely facilitates workflow management. This combination streamlines Uber's data processing, ensuring robust ETL operations and facilitating advanced analytics on their datasets."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
                 title={"S & P 500 PRICE PREDICTION"}
-                link="https://github.com/soumyasootar/Converso"
-                github={"https://github.com/soumyasootar/Converso"}
+                link="https://github.com/gaurav13020/sp500"
+                github={"https://github.com/gaurav13020/sp500"}
                 img={sp500}
-                summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+                summary="
+                The S&P 500 Price Prediction App, created with Python, utilizes yfinance for financial data, Matplotlib for visualizations, and Streamlit for the user interface. The application enables users to forecast S&P 500 stock prices. It fetches data using yfinance, employs Matplotlib for graphical representations, and Streamlit for a user-friendly interface, providing an accessible tool for S&P 500 price predictions."
               />
             </div>
             <div className="col-span-12">
               <FeatureProject
                 type={"FEATURE PROJECT"}
                 title={"BROWNIAN SIMULATOR"}
-                link="https://github.com/soumyasootar/Converso"
-                github={"https://github.com/soumyasootar/Converso"}
+                link="https://github.com/gaurav13020/Simple_Brownian_Simulator"
+                github={"https://github.com/gaurav13020/Simple_Brownian_Simulator"}
                 img={brownian}
-                summary="Converso is a real-time chat application built using React, Socket.IO, MongoDB, Express, Node.js,Mongoose and Chakra UI. The app enables users to chat with each other instantly, while offering an intuitive and modern UI. Converso is built to be scalable and reliable, and can be easily deployed to any environment. "
+                summary="The Brownian Motion Simulator for Finance is a Python-based application utilizing libraries such as NumPy for mathematical computations, Matplotlib for visualization, and Streamlit for the user interface. This simulator enables users to model and visualize financial scenarios with Brownian motion. The application offers an interactive platform, leveraging Streamlit for ease of use, allowing users to simulate and analyze financial movements influenced by Brownian motion."
               />
             </div>
             

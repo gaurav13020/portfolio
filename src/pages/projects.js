@@ -9,7 +9,7 @@ import zostelimg from "../../public/images/projects/ZOSTEL.png";
 import youtube from "../../public/images/projects/youtube.png";
 import fabimg from "../../public/images/projects/Faballey.png";
 import blackScholes from "../../public/images/projects/blackScholes.png";
-import portfolio from "../../public/images/projects/portfolio.png";
+import portfolio from "../../public/images/projects/Portfolio.png";
 import shopimg from "../../public/images/projects/Shop.png";
 import Transitions from "@/Components/Transitions";
 import Portfolioimg from "../../public/images/projects/Portfolio.png";

@@ -9,7 +9,7 @@ import zostelimg from "../../public/images/projects/ZOSTEL.png";
 import youtube from "../../public/images/projects/youtube.png";
 import fabimg from "../../public/images/projects/Faballey.png";
 import blackScholes from "../../public/images/projects/blackScholes.png";
-
+import portfolio from "../../public/images/projects/portfolio.png";
 import shopimg from "../../public/images/projects/Shop.png";
 import Transitions from "@/Components/Transitions";
 import Portfolioimg from "../../public/images/projects/Portfolio.png";
@@ -202,6 +202,18 @@ const projects = () => {
                 summary="The Brownian Motion Simulator for Finance is a Python-based application utilizing libraries such as NumPy for mathematical computations, Matplotlib for visualization, and Streamlit for the user interface. This simulator enables users to model and visualize financial scenarios with Brownian motion. The application offers an interactive platform, leveraging Streamlit for ease of use, allowing users to simulate and analyze financial movements influenced by Brownian motion."
               />
             </div>
+            <div className="col-span-12">
+              <FeatureProject
+                type={"FEATURE PROJECT"}
+                title={"PORTFOLIO"}
+                link="https://gauravsingh.vercel.app/projects"
+                github={"https://github.com/gaurav13020/portfolio"}
+                img={portfolio}
+                summary="A portfolio website using Nextjs and TailwindCSS is a great way to showcase skills. It has a clean design and easy navigation with separate pages for projects, skills, and about me. Projects have details on tools used, skills list expertise, and About Me page has bio, resume, and contact information. It offers a professional online presence for potential clients/employers to learn about skills and accomplishments."
+              />
+            </div>
+            
+
             
             {/* <div className="col-span-6 sm:col-span-12">
               <Project

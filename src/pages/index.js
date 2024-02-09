@@ -21,7 +21,7 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-2 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col ">
-            <div className="w-2/5 md:w-full">
+            <div className="w-1/2 md:w-full">
               <Image
                 src={Profilepic}
                 alt={"DEVELOPER IMAGE"}
@@ -32,7 +32,7 @@ export default function Home() {
               50vw"
               />
             </div>
-            <div className="w-3/5 flex flex-col items-center self-center lg:w-full lg:text-center ml-10 pl-10">
+            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               {/* <AnimatedText
                 text="Hey ! "
                 className="!text-6xl  !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"

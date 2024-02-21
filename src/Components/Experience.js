@@ -53,7 +53,7 @@ const Experience = () => {
           <Details
             type="@LTIMindtree"
             position="Data Science Intern"
-            time="Feburary 2023 - June 2026 "
+            time="Feburary 2023 - June 2023 "
             place=" Pune, Maharashtra, India "
             info1="
             Participated in an intensive training program focused on data science and analytics, gaining hands-on
